@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/dsa.css";
+import "../styles/DSA.css";
 
 const DSA = () => {
   return (
