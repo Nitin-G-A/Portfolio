@@ -1,16 +1,76 @@
-# React + Vite
+# 🌐 Personal Portfolio – Nitin G A
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ A modern, AI-powered developer portfolio showcasing my skills, projects, and problem-solving journey.
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://your-vercel-link.vercel.app  
+📂 GitHub Repo: https://github.com/Nitin-G-A/Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##  About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3rd-year Computer Science student with strong foundations in Data Structures, Full-Stack Development, and Machine Learning.  
+Passionate about building scalable applications and solving real-world problems using AI and modern web technologies.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+###  Frontend
+- React.js
+- Tailwind CSS
+- Framer Motion
+
+###  Backend
+- Node.js
+- FastAPI
+
+###  Database
+- PostgreSQL (Supabase)
+- MySQL
+
+###  Tools
+- Git & GitHub
+- VS Code
+- Vite
+
+---
+
+##  Features
+
+-  Modern UI with animations
+-  3D particle background
+-  Smooth navigation
+-  Fully responsive design
+-  AI-focused project showcase
+-  Interactive hover effects
+
+---
+
+##  Sections
+
+- Home
+- About
+- Skills
+- Projects
+- DSA Profile
+- Contact
+
+---
+
+##  DSA Highlights
+
+-  250+ Problems Solved
+-  Strong in Data Structures & Algorithms
+-  Focus: Graphs, DP, Trees
+
+
+---
+
+##  Installation & Setup
+
+```bash
+git clone https://github.com/Nitin-G-A/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
