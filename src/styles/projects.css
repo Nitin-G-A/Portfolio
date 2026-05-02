@@ -1,0 +1,142 @@
+.projects {
+  min-height: 100vh;
+  padding: 80px 60px 40px; /* 🔥 reduced bottom space */
+}
+
+.projects h2 {
+  text-align: center;
+  color: #00F5FF;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.project-card-pro {
+  padding: 15px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.02);
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+/* 🌈 GRADIENT BORDER */
+.project-card-pro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  padding: 1px;
+  background: linear-gradient(45deg, #00F5FF, #7A5FFF);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+/* HOVER */
+.project-card-pro:hover {
+  box-shadow: 0 0 30px #00F5FF44;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns a {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: 1px solid #00F5FF;
+  border-radius: 6px;
+  color: #00F5FF;
+  font-size: 12px;
+}
+
+.btns a:hover {
+  background: #00F5FF;
+  color: black;
+}
+
+/* METRICS */
+.metrics {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.metric-box {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #111;
+  border: 1px solid #00F5FF33;
+  font-size: 12px;
+}
+
+/* BLOCKS */
+.block {
+  margin-top: 6px;
+  padding: 6px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.problem {
+  background: rgba(255, 50, 50, 0.1);
+}
+
+.solution {
+  background: rgba(0, 255, 150, 0.1);
+}
+
+/* ACCORDION */
+.accordion {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #00F5FF;
+  font-size: 13px;
+}
+
+/* FEATURES */
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.feature-box {
+  padding: 8px;
+  border-radius: 8px;
+  background: #111;
+  border: 1px solid #00F5FF33;
+  font-size: 12px;
+}
+
+/* TECH */
+.tech {
+  margin-top: 10px;
+}
+
+.tech span {
+  margin-right: 6px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  background: #00F5FF22;
+  font-size: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

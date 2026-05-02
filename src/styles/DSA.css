@@ -1,0 +1,141 @@
+/* MAIN SECTION */
+.dsa {
+  min-height: 100vh;
+  padding: 120px 20px 20vh 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 🔥 vertical center */
+
+  text-align: center;
+}
+
+/* TITLE */
+.dsa h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+
+  background: linear-gradient(90deg, #7A5FFF, #00F5FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* STATS */
+.dsa-stats {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  width: 150px;
+  padding: 20px;
+  border-radius: 16px;
+
+  background: rgba(122, 95, 255, 0.1);
+  border: 1px solid rgba(122, 95, 255, 0.4);
+
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #7A5FFF;
+}
+
+.stat-card h3 {
+  font-size: 26px;
+  color: #7A5FFF;
+}
+
+/* PLATFORMS */
+.platforms {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.platforms a {
+  padding: 8px 18px;
+  border-radius: 25px;
+  border: 1px solid #00F5FF;
+  color: #00F5FF;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.platforms a:hover {
+  background: #00F5FF;
+  color: black;
+}
+
+/* TOPICS */
+.topics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.topics span {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: rgba(0, 245, 255, 0.1);
+  border: 1px solid #00F5FF55;
+  transition: 0.3s;
+}
+
+.topics span:hover {
+  background: #7A5FFF;
+  color: white;
+}
+/* NEXT GOALS */
+.next-goals {
+  margin-top: 50px;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(122, 95, 255, 0.2);
+}
+
+.goals-heading {
+  color: #00F5FF;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.goals-text {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.goals-badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.goals-badges span {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: rgba(122, 95, 255, 0.1);
+  border: 1px solid rgba(122, 95, 255, 0.5);
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.goals-badges span:hover {
+  background: #7A5FFF;
+  box-shadow: 0 0 15px rgba(122, 95, 255, 0.4);
+}

@@ -1,0 +1,81 @@
+.skills {
+  min-height: 100vh;
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 42px;
+  color: #00F5FF;
+  margin-bottom: 60px;
+}
+
+/* 🔥 FLEX LAYOUT (BEST LOOK) */
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* ROWS */
+.skills-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* CARD */
+.skill-card {
+  width: 280px;
+  height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: 0.4s;
+}
+
+/* HOVER */
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px #00F5FF55;
+}
+
+/* HEADER */
+.skill-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #00F5FF;
+}
+
+/* TAGS */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tags span {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #00F5FF15;
+  border: 1px solid #00F5FF55;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.skill-tags span:hover {
+  background: #00F5FF;
+  color: black;
+}
