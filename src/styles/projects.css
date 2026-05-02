@@ -25,20 +25,24 @@
   overflow: hidden;
   transition: 0.4s;
 }
+.project-card-pro {
+  color: white !important;
+}
+
+.project-card-pro * {
+  color: white !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
 
 /* 🌈 GRADIENT BORDER */
 .project-card-pro::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 18px;
-  padding: 1px;
-  background: linear-gradient(45deg, #00F5FF, #7A5FFF);
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  pointer-events: none;
+  z-index: 0;
+}
+
+.project-card-pro > * {
+  position: relative;
+  z-index: 1;
 }
 
 /* HOVER */
